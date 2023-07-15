@@ -1,10 +1,79 @@
 .navbar-container {
     display: flex;
-    background-color: red;
+    align-items: center;
+    justify-content: space-between;
     padding: 15px 10%;
+}
+
+.navbar-logo-search-container {
+    display: flex;
+    align-items: center;
 }
 
 .navbar-logo {
     height: 30px;
     width: fit-content;
+}
+
+.navbar-search-container {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 8px;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+}
+
+.navbar-search-location {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search-restaurant {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search-location {
+    height: 20px;
+    width: fit-content
+}
+
+.navbar-search-chevron {
+    width: 20px;
+}
+
+.navbar-search-vertical-line {
+    height: 25px;
+}
+
+.navbar-search-search-icon {
+    height: 22px;
+    width: fit-content;
+}
+
+.navbar-input-location,
+.navbar-input-restaurant {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.navbar-input-restaurant {
+    width: 100%;
+}
+
+.navbar-search-restaurant {
+    width: 65%;
+}
+
+.navbar-login-button {
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 18px;
+    margin-right: 10px;
 }

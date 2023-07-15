@@ -1,0 +1,22 @@
+.filter-type-container {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.filter-type-image-container {
+    background-color: rgb(252, 238, 192);
+    border-radius: 50%;
+}
+
+.filter-type-image {
+    height: 35px;
+    padding: 15px;
+}
+
+.filter-type-text {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: gray;
+}
