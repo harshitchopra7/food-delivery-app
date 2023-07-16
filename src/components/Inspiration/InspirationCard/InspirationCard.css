@@ -1,0 +1,16 @@
+.inspiration-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.inspiration-card-image {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.inspiration-card-text {
+    font-size: 20px;
+    font-weight: 600;
+}

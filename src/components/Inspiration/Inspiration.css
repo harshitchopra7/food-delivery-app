@@ -1,0 +1,16 @@
+.inspiration-container {
+    margin: 40px 0;
+    padding: 10px 10%;
+    background-color: whitesmoke;
+}
+
+.inspiration-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.inspiration-cards-container {
+    display: flex;
+    align-items: center;
+}
