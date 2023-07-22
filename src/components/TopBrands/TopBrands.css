@@ -1,0 +1,8 @@
+.top-brands-container {
+    padding: 10px 10%;
+}
+
+.top-brand-card-container {
+    display: flex;
+    align-items: center;
+}

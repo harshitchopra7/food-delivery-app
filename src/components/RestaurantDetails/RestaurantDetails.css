@@ -1,0 +1,11 @@
+.restaurant-details-container {
+    padding: 10px 10%;
+}
+
+.restaurant-details-cards-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}

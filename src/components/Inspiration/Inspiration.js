@@ -1,17 +1,22 @@
 import React from "react";
 import "./Inspiration.css";
-import InspirationCard from "./InspirationCard/InspirationCard.js";
 
 import { inspirationData } from "./constants";
+import Text from "../../common/Text/Text";
+import CircularCard from "../../common/CircularCard/CircularCard";
 
 function Inspiration() {
   return (
     <div className="inspiration-container">
-      <p className="inspiration-title">Inspiration for your first order</p>
+      <Text text="Inspiration for your first order" variant="h1" />
 
       <div className="inspiration-cards-container">
         {inspirationData.map((value) => (
-          <InspirationCard image={value.image} text={value.text} />
+          <CircularCard
+            image={value.image}
+            text={value.text}
+            textVariant="h3"
+          />
         ))}
       </div>
     </div>
