@@ -3,15 +3,24 @@ import "./RestaurantDetails.css";
 import Text from "../../common/Text/Text";
 import RestaurantDetailsCard from "../../common/RestaurantDetailsCard/RestaurantDetailsCard";
 
-function RestaurantDetails() {
+function RestaurantDetails({ title, restaurants }) {
   return (
     <div className="restaurant-details-container">
-      <Text text="Best Food in Jabalpur" variant="h1" />
+      <Text text={title} variant="h1" />
 
       <div className="restaurant-details-cards-container">
-        <RestaurantDetailsCard />
-        <RestaurantDetailsCard />
-        <RestaurantDetailsCard />
+        {restaurants.map((restaurant, index) => (
+          <RestaurantDetailsCard
+            image={restaurant.info.image.url}
+            coupon=""
+            title={restaurant.info.name}
+            rating={restaurant.info.rating.rating_text}
+            // description={}
+            price={restaurant.info.cft.text}
+            time={restaurant.order.deliveryTime}
+            showMaxSafety=""
+          />
+        ))}
       </div>
     </div>
   );

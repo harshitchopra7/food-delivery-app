@@ -39,6 +39,7 @@ function Navbar() {
               />
             </div>
           </div>
+
           <div className="navbar-search-restaurant">
             <img
               className="navbar-search-search-icon"

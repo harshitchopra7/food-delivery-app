@@ -2,10 +2,18 @@
     width: 30%;
 }
 
+.restaurant-details-card-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .restaurant-details-card-image {
-    width: 100%;
     border-radius: 12px;
     padding: 5px;
+    height: 150px;
+    object-fit: cover;
+    width: fit-content;
 }
 
 .restaurant-details-card-title-container,

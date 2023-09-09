@@ -14,29 +14,29 @@ function RestaurantDetailsCard({
 }) {
   return (
     <div className="restaurant-details-card-container">
-      <div>
+      <div className="restaurant-details-card-image-container">
         <img
-          src="https://b.zmtcdn.com/data/pictures/0/20248800/3a5eb4d04fa6fe9df5b08b5fb2be8974_o2_featured_v2.jpg?output-format=webp"
+          src={image}
           alt="restaurant"
           className="restaurant-details-card-image"
         />
       </div>
       <div className="restaurant-details-card-title-container">
-        <Text text="The Cake Company" variant="h4" />
+        <Text text={title} variant="h4" />
         <div className="restaurant-details-card-rating">
-          <Text text="4" variant="bold-p" />
+          <Text text={rating} variant="bold-p" />
           <p>&#9734;</p>
         </div>
       </div>
       <div className="restaurant-details-card-description-container">
         <div className="restaurant-details-card-description">
-          <Text text="Bakery, Sandwich, Street Food, Fast Food, Rolls, Chinese, Beverages, North Indian" />
+          <Text text={description} />
         </div>
 
-        <Text text="₹50 for one" />
+        <Text text={price} />
       </div>
       <div className="restaurant-details-card-price">
-        <Text text="34 min" variant="p2" />
+        <Text text={time} variant="p2" />
       </div>
     </div>
   );
